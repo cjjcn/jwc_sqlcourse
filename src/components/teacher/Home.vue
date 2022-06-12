@@ -3,8 +3,8 @@
     <!-- 头部区域 -->
     <el-header>
       <div>
-        <img src="../../assets/logo_Shu.png" alt="" />
-        <span>上海大学教务管理系统教师端</span>
+        <img src="../../assets/logo.png" alt="" />
+        <span>东北林业大学教务管理系统教师端</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>
@@ -14,7 +14,7 @@
       <el-aside :width="isCollapse ? '64px' : '200px'">
         <div class="toggle-button" @click="toggleCollapse">|||</div>
         <el-menu
-          background-color="#043454"
+          background-color="#0b5404"
           text-color="#fff"
           unique-opened
           :collapse="isCollapse"
@@ -173,7 +173,7 @@ export default {
 
 <style lang="less" scoped>
 .el-header {
-  background-color: #043454;
+  background-color: #0b5404;
   display: flex;
   justify-content: space-between;
   padding-left: 0;
@@ -196,7 +196,7 @@ export default {
   }
 }
 .el-aside {
-  background-color: #043454;
+  background-color: #0b5404;
   > div{
            font-size:15px;
        }
@@ -211,7 +211,7 @@ export default {
   height: 100%;
 }
 .toggle-button {
-  background-color: #4a6886;
+  background-color: #0b5404;
   font-size: 10px;
   line-height: 24px;
   color: #fff;

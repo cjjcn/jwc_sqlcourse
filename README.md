@@ -1,6 +1,6 @@
 # 教务管理系统
 
-本项目为上海大学教务管理系统，分为管理员端，学生端，教师端，实现了根据学工号登录、登录验证、信息管理、选课管理、成绩管理等功能。
+本项目为东北林业大学教务管理系统，分为管理员端，学生端，教师端，实现了根据学工号登录、登录验证、信息管理、选课管理、成绩管理等功能。
 
 仅供交流学习使用！
 
@@ -14,42 +14,9 @@
 
 - 页面: [Element-UI](https://element.eleme.cn/#/zh-CN)
 
-## 效果截图
-
-<img src="./images/login.jpg" alt="login" style="zoom:67%;" />
-
-<img src="./images/student_1.jpg" alt="student_1" style="zoom:67%;" />
-
-<img src="./images/student_2.jpg" alt="student_2" style="zoom:67%;" />
-
-<img src="./images/student_3.jpg" alt="student_3" style="zoom:67%;" />
-
-<img src="./images/student_4.jpg" alt="student_4" style="zoom:67%;" />
-
-<img src="./images/teacher_2.jpg" alt="teacher_2" style="zoom:67%;" />
-
-<img src="./images/teacher_3.jpg" alt="teacher_3" style="zoom:67%;" />
-
-<img src="./images/teacher_4.jpg" alt="teacher_4" style="zoom:67%;" />
-
-<img src="./images/teacher_5.jpg" alt="teacher_5" style="zoom:67%;" />
-
-<img src="./images/admin_1.jpg" alt="admin_1" style="zoom:67%;" />
-
-<img src="./images/admin_2.jpg" alt="admin_2" style="zoom:67%;" />
-
-<img src="./images/admin_3.jpg" alt="admin_3" style="zoom:67%;" />
-
-<img src="./images/admin_4.jpg" alt="admin_4" style="zoom:67%;" />
-
-<img src="./images/admin_5.jpg" alt="admin_5" style="zoom:67%;" />
-
 ## 运行方法
 
 ### 1. 下载文件
-```
-git clone https://gitee.com/wgjmcal/vue-school-manager
-```
 ### 2. 运行后端
 
 进入MyWeb文件夹
@@ -75,7 +42,6 @@ pip install -r requirements.txt
   python manage.py migrate
   ```
 
-<img src="./images/image-20210527202446606.png" alt="image-20210527202446606" style="zoom:67%;" />
 
 - 数据库初始化
 
@@ -83,7 +49,6 @@ pip install -r requirements.txt
   python DBSettings.py
   ```
 
-<img src="./images/image-20210527202800704.png" alt="image-20210527202800704" style="zoom:67%;" />
 
 #### 运行后端
 
@@ -92,7 +57,6 @@ py manage.py runserver 8001
 ```
 > 此处的端口8001需要与前端一致
 
-<img src="./images/image-20210527203004547.png" alt="image-20210527203004547" style="zoom:67%;" />
 
 #### 查看API
 
@@ -166,10 +130,6 @@ DATABASES_settings = DATABASES_mysql #8
 > 注意初始化文件只能运行一次，不然数据库里面的数据会重复。
 >
 > 如果配置出错，**把下面这两个文件删除**，**重建一个数据库**，**修改上面提到的数据库配置**，从数据库迁移这一步再来一遍。
-
-<img src="./images/image-20210601103717658.png" alt="image-20210601103717658" style="zoom:67%;" />
-
-<img src="./images/image-20210601104148745.png" alt="image-20210601104148745" style="zoom:67%;" />
 
 ### 文件说明
 

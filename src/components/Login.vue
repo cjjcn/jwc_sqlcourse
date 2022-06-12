@@ -107,8 +107,8 @@ export default {
 <style lang="less" scoped>
 .login_container {
   background-color: #2b4b6b;
-  background-image: url('../assets/lib1.png');
-  background-size: 200% 100%;
+  background-image: url('../assets/zhulou.jpg');
+  background-size: cover;
   height: 100%;
   display: flex;
   justify-content: center;

@@ -120,7 +120,7 @@ export default {
       studentlistShow: [],
       total: 0, // 列表总数
       currentPage: 1, // 当前页面
-      pageSize: 3, // 每页展示列表数
+      pageSize: 5, // 每页展示列表数
       checkList: [],
     }
   },
