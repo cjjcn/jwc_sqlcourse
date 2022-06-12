@@ -4,7 +4,7 @@
     <el-header>
       <div>
         <img src="../../assets/logo.png" alt="" />
-        <span>东北林业大学教务管理系统教师端</span>
+        <span>东北林业大学教务管理系统-教师端</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
     </el-header>

@@ -51,13 +51,6 @@ class Analysis():
                 group by O.semester
                 '''.format(student_id)
         Avg_table = pd.read_sql_query(query, self.engine)
-        # query = '''
-        #         SELECT O.semester,AVG(score) as avg_score
-        #         FROM scoretable as S,opentable as O
-        #         where student_id = {0} and O.id = S.open_id
-        #         group by O.semester
-        #         '''.format(student_id)
-        # Avg_table = pd.read_sql_query(query, self.engine)
         return Avg_table.round(2)
 
 
