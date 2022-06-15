@@ -66,7 +66,7 @@
             <!--上传按钮-->
             <el-upload
               class="upload-teachingschedule"
-              action="http://127.0.0.1:8001/teacher/save_pdf/"
+              action="http://49.232.27.23:8001/teacher/save_pdf/"
               :on-preview="handlePreview"
               :on-remove="handleRemove"
               :before-remove="beforeRemove"
