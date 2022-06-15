@@ -1,9 +1,9 @@
 {
-  "name": "vue_test",
+  "name": "东北林业大学教务系统&0xFFFFFF",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --disableHostCheck=true",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
